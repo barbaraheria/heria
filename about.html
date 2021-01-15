@@ -1,0 +1,107 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Menhera | About</title>
+</head>
+<style>
+.second{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    background-image: url('https://imgur.com/ZSTEVaN.gif');
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+  }
+.container{
+    width: 100%;
+    height:auto;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.about {
+    width: 50%;
+    height: 100px;
+    display:flex;
+    margin-left: 50%;
+    margin-top: 8%;
+    text-align: center;
+    transform: translateX(-50%)translateY(-50%);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text{
+    font-size: 20px;
+    color: rgba(206, 114, 178, 0.404);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 10px 12px rgba(75, 35, 255, 0.212);
+}
+.content{
+    width:50%;
+    height:50px;
+    margin-left: 50%;
+    margin-top: -0.75%;
+    text-align: center;
+    transform: translateX(-50%)translateY(-50%);
+    font-size: 15px;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+    line-height: 30px;
+}
+
+</style>
+<div class="second">
+  <div class="nav-bar">
+    <div class="nav-links" id="nav-links">
+      <i class="fa fa-close" onclick="closeMenu()"></i> 
+        <ul>
+          <li><a href="index.html">HOME</li></a>
+          <li><a href="about.html">ABOUT</li></a>
+          <li><a href="advocacy.html">ADVOCACY</li></a>
+          <li><a href="gallery.html">GALLERY</li></a>
+        </ul>
+    </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i> 
+  </div>
+  <div class="container"></div>
+    <div class="about">
+      <div class="text">
+        <h2>ABOUT ･ﾟ✧</h2>
+      </div>
+    </div>
+    <div class="content">
+      <p>.・。. ✧ Menhera, translates to "yami kawaii" or dark but cute,
+         is a style from japan that is a branch of Harajuku fashion. 
+         Style is defined as challenging norms, but this particular style 
+         unlocks Japans deepest taboos, depression and mental illness.
+        Menhera is a term that refers to people that suffers from mental illnes. 
+        Having this sick or dark term inside all the cute is what make it's duality. 
+        Japan has one of the highest suicide rates in the world even talking about 
+        mental illness is considers taboo. Menhera fashion focuses a lot on cuteness 
+        that had been tainted by sickness. This is reflected by characters that 
+        appear cute but may be in very poor health, have obscure interests or have 
+        very negative thoughts. Menhera is a fashion, but it's also a 
+        coping mechanism for complex emotions. Some people see cute clothes as a form of therapy. 
+        Talking openly about painful experiences feels better than keeping it in, when 
+        you talk powerful things can happen.Menhera helps change the negative perspective 
+        image of mental health issues, and it is doing that by applying emotions into 
+        fashion and think of it as a way of expressing your thoughts without ever 
+        harming oneself.‧̍̊˙· 𓆝.°.・。. ✧<br><br><br><br><br></p>
+    </div>
+  </div>  
+<script>
+  var show = document.getElementById("nav-links");
+  function showMenu(){
+    show.style.right = "0";
+  }
+  function closeMenu(){
+    show.style.right = "-200px";
+  }
+</script> 
+</body>
+</html>
